@@ -1,0 +1,10 @@
+courses:
+  - title: Applied Natural Language Processing
+    code: ISTA 455/INFO 555
+    institution: University of Arizona
+    semester: Spring 2023
+
+
+students:
+  - name: Maddalen Lopez de Lacalle
+    url: https://scholar.google.es/citations?user=vCD9rPYAAAAJ&hl=en

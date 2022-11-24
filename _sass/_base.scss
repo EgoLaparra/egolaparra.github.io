@@ -8,6 +8,19 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -94,6 +107,7 @@ blockquote {
 
 .profile {
   margin-left: 1rem;
+  margin-right: 2rem;
   width: 100%;
 
   .address {
@@ -102,14 +116,22 @@ blockquote {
     font-family: monospace;
     p {
       display: inline-block;
+      font-size: 0.95rem;
       margin: 0;
     }
   }
 }
 
+.welcome {
+ width: 60%; 
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+    .img-fluid{
+    width: 55%;
+    }
     .address {
       p { display: block; }
     }
@@ -136,6 +158,7 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-size: 1.05rem;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -246,9 +269,9 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -265,7 +288,6 @@ blockquote {
     font-size: 0.8rem;
   }
 }
-
 
 // Footer
 footer.fixed-bottom {
@@ -296,11 +318,29 @@ footer.sticky-bottom {
 
 .cv {
   margin-bottom: 40px;
-  
+
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
+
+    h3 {
+      font-size: 1.2rem;
+    } 
+
+    h6 {
+      font-size: 0.8rem;
+    } 
+
+    table{
+      td {
+        font-size: 0.8rem;
+      }
+    }
+
+    li {
+      font-size: 0.8rem;
+    }
+
     .list-group-item {
       background-color: inherit;
 
@@ -312,12 +352,66 @@ footer.sticky-bottom {
   }
 }
 
+
+// Teaching
+
+.teaching {
+  margin-bottom: 40px;
+
+  .card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+
+    h3 {
+      font-size: 1.2rem;
+    } 
+
+    h6 {
+      font-size: 0.8rem;
+    } 
+
+    table{
+      td {
+        font-size: 0.8rem;
+      }
+    }
+
+    .bullet::before {
+        content: "●";
+        margin-right: 0.5rem;
+        color: var(--global-theme-color) !important;
+    }
+    
+    .list-group-item {
+      background-color: inherit;
+
+      .badge {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--global-theme-color) !important;
+      }
+    }
+
+    a {
+      text-decoration: underline;
+      color: var(--global-text-color);
+      &:hover {
+        color: var(--global-hover-color);
+      }
+    }
+  }
+}
+
 // Repositories
 
 @media (min-width: 768px) {
   .repo {
     max-width: 50%;
   }
+}
+
+.repositories {
+  width: 80%;  
+  margin: 0 auto;
 }
 
 // Blog
@@ -421,12 +515,16 @@ footer.sticky-bottom {
         color: var(--global-theme-color);
       }
     }
+
+    .fund {
+      font-size: 0.75rem;
+    }
   }
 
   .card {
     img {
       width: 100%;
-    }
+    }    
   }
 
   .card-item {
@@ -476,7 +574,7 @@ footer.sticky-bottom {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: -2rem;
     text-align: right;
   }
@@ -486,9 +584,10 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
+      font-size: 0.9rem;
       margin-bottom: 1rem;
       .preview {
-        width: 100%;
+        width: 80%;
         min-width: 80px;
         max-width: 200px;
       }

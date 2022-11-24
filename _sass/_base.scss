@@ -123,7 +123,7 @@ blockquote {
 }
 
 .welcome {
- width: 60%; 
+ width: 100%; 
 }
 
 @media (min-width: 576px) {
@@ -135,6 +135,9 @@ blockquote {
     .address {
       p { display: block; }
     }
+  }
+  .welcome {
+    width: 60%; 
   }
 }
 

@@ -9,7 +9,7 @@ profile:
   image: # test.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p><a href='https://ischool.arizona.edu/'>The University of Arizona.<br>School of Information.</a><p>
+    <p><a href='https://ischool.arizona.edu/'>The University of Arizona.<br>School of Information.</a></p>
     <p>Harvill Building</p>
     <p>4th Floor, Room 435D</p>
     <p>1103 E. 2nd St.</p>

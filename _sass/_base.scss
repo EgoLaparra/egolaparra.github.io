@@ -115,7 +115,7 @@ blockquote {
     margin-top: 5px;
     font-family: monospace;
     p {
-      display: inline-block;
+      display: block;
       font-size: 0.95rem;
       margin: 0;
     }
@@ -126,7 +126,7 @@ blockquote {
  width: 100%; 
 }
 
-@media (min-width: 576px) {
+@media (min-width: 734px) {
   .profile {
     width: 30%;
     .img-fluid{
@@ -153,6 +153,11 @@ blockquote {
   }
 }
 
+// Add padding to address scrollbar
+
+.pad-scrollbar {
+  padding-left: calc(100vw - 100%);
+}
 
 // Navbar customization
 

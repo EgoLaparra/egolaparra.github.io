@@ -2,6 +2,10 @@ courses:
   - title: Applied Natural Language Processing
     code: ISTA 455/INFO 555
     institution: University of Arizona
+    semester: Fall 2023
+  - title: Applied Natural Language Processing
+    code: ISTA 455/INFO 555
+    institution: University of Arizona
     semester: Spring 2023
 
 

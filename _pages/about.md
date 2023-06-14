@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 <h2> Welcome </h2>
 
-I’m a Researcher/Scientist at <a href='https://ischool.arizona.edu/'>The University of Arizona School of Information</a>. Previously, I worked as a Postdoctoral Associate at the same university from 2017 to 2021, after receiving my PhD from the <a href='https://www.ehu.eus/en/web/informatika-fakultatea/home'>University of the Basque Country</a>.
+I’m a Researcher/Scientist and an Adjunct Instructor at <a href='https://ischool.arizona.edu/'>The University of Arizona School of Information</a>. Previously, I worked as a Postdoctoral Associate at the same university from 2017 to 2021, after receiving my PhD from the <a href='https://www.ehu.eus/en/web/informatika-fakultatea/home'>University of the Basque Country</a>.
 <br>
 <br>
 My background is in computer science with a specialization in natural language processing. My research interests include information extraction with a focus on the events, their participants, and their context, i.e., when and where the events take place. I also work on domain adaptation searching for solutions to transfer machine learning models across domains. I am especially interested on applying such techniques to clinical documents.

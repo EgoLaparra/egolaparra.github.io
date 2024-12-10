@@ -6,5 +6,5 @@ description: A Data Science Platform and Mechanisms for Its Sustainability.
 redirect: https://www.nepaccess.org/
 <!-- img: assets/img/NEPAccess-logo_square.png -->
 importance: 1
-category: current
+category: past
 ---
